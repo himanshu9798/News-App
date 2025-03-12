@@ -8,7 +8,7 @@ function Tesala() {
   useEffect(() => {
     axios
       .get(
-        "https://newsapi.org/v2/everything?q=tesla&from=2025-02-11&sortBy=publishedAt&apiKey=7470a3a6500b41cbae836a46c694dbca"
+        "https://newsapi.org/v2/everything?q=tesla&from=2025-02-12&sortBy=publishedAt&apiKey=7470a3a6500b41cbae836a46c694dbca"
       )
       .then((res) => {
         setData(res.data.articles);
